@@ -251,7 +251,7 @@
           <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
           </svg>
-          Unlimited Students
+          Up to 20 students
         </li>
         <li class="flex items-center">
           <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
