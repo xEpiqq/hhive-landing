@@ -183,7 +183,7 @@
         </div>
         <div class="bg-[#ffde6a] p-6 rounded-lg shadow">
           <h3 class="text-xl font-semibold mb-4">3. Practice & Progress</h3>
-          <p>Smart reminders encourage consistent practice, while you track their progress through detailed analytics.</p>
+          <p>Smart reminders encourage consistent practice, while you track their progress through detailed analytics. (in progress)</p>
         </div>
       </div>
     </div>
@@ -227,7 +227,7 @@
         </div>
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h3 class="text-xl font-semibold mb-4">Progress Analytics</h3>
-          <p>Track student engagement and progress with detailed reports and insights.</p>
+          <p>Track student engagement and progress with detailed reports and insights (almost finished)</p>
         </div>
       </div>
     </div>
@@ -252,6 +252,18 @@
             <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
           </svg>
           Unlimited Students
+        </li>
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          Full Access To Teacher Portal
+        </li>
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          Full Access To App Distribution
         </li>
         <li class="flex items-center">
           <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
