@@ -136,8 +136,8 @@
   </section>
 
   <!-- Video Embed -->
-  <section class="px-4">
-    <div class="relative w-[850px] pb-[56.25%] mx-auto">
+  <section class="px-4 w-full max-w-[850px] mx-auto">
+    <div class="relative w-full pb-[56.25%]">
       <div class="wistia_responsive_wrapper absolute top-0 left-0 w-full h-full">
         <div class="wistia_embed wistia_async_6xyp0fula3 seo=true videoFoam=true w-full h-full relative">
           <div class="wistia_swatch absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden transition-opacity duration-200">
