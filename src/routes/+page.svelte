@@ -233,6 +233,48 @@
     </div>
   </section>
 
+  <!-- Pricing Section -->
+<section class="w-full py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-semibold mb-8">Simple Pricing</h2>
+    <div class="max-w-md mx-auto bg-[#ffde6a] p-8 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-semibold mb-4">$25/Month</h3>
+      <p class="text-lg mb-6">Flat rate with no hidden fees</p>
+      <ul class="text-left mb-6 space-y-2">
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          Unlimited song uploads
+        </li>
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          Unlimited Students
+        </li>
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          In-app messaging
+        </li>
+        <li class="flex items-center">
+          <svg class="w-5 h-5 mr-2 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.707a1 1 0 00-1.414-1.414L9 10.586 5.707 7.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8z" clip-rule="evenodd" />
+          </svg>
+          Events calendar
+        </li>
+      </ul>
+      <button on:click={signIn} class="bg-black text-white text-lg px-8 py-3 font-semibold rounded-md shadow-lg hover:bg-gray-800 transition duration-300">
+        Start Your Free 14-Day Trial
+      </button>
+      <p class="mt-4 text-sm">Cancel anytime during your trial.</p>
+    </div>
+  </div>
+</section>
+
+
   <!-- CTA Section -->
   <section class="mt-16 px-4 bg-[#ffde6a] py-16 w-full">
     <h2 class="text-3xl font-semibold mb-6">Ready to Transform Your Music Teaching?</h2>
