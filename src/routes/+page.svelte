@@ -3,10 +3,11 @@
   import { user } from '$lib/stores/userStore';
   import { getAuth, signInWithPopup, GoogleAuthProvider, signOut } from 'firebase/auth';
   import { app } from '$lib/firebase';
+  import Hotjar from '@hotjar/browser';
 
-  export let title = "Funnel Architecture";
-  export let subtitle = "How Business Owners Are Turning More of Their Website Traffic into Sales with 'Funnel Architecture'";
-  export let description = "The Method Behind Funnels That Have Been Seen On The Joe Rogan Experience, Won 2CC Awards, And Generated Millions Of Revenue Online...";
+  export let title = "Harmony Hive";
+  export let subtitle = "Music Teachers This App Will Make Practicing At Home A Habit";
+  export let description = "Sorta like duolingo";
 
   let auth;
   let provider;
@@ -17,6 +18,10 @@
     provider = new GoogleAuthProvider();
 
     console.log($user)
+
+    const siteId = 5106065;
+    const hotjarVersion = 6;
+    Hotjar.init(siteId, hotjarVersion);
 
     const script1 = document.createElement('script');
     script1.src = 'https://fast.wistia.com/embed/medias/6xyp0fula3.jsonp';
@@ -128,7 +133,7 @@
   <!-- Title and Subtitle -->
   <section class="text-center my-8 px-4 md:px-0">
     <h1 class="text-4xl md:px-32 md:text-5xl/snug lg:px-0 lg:text-5xl/tight font-semibold max-w-4xl mx-auto mt-10 leading-snug">
-      Private Music Teachers, This App Will Make <span class="bg-[#ffde6a] px-1">Practicing At Home A Habit </span>
+      Music Teachers, This App Will Make <span class="bg-[#ffde6a] px-1">Practicing At Home A Habit </span>
     </h1>
     <h2 class="text-lg md:text-lg md:font-semibold lg:px-0 md:px-28 lg:text-xl mt-4 text-black max-w-3xl mx-auto leading-relaxed font-normal">
       This app is like a pesky shoulder angel nagging students to practice daily.
